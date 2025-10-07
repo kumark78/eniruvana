@@ -1,0 +1,5 @@
+# Simple .htaccess for testing
+RewriteEngine On
+
+# Rewrite .asp extensions to .php
+RewriteRule ^(.*)\.asp$ $1.php [L,QSA]
